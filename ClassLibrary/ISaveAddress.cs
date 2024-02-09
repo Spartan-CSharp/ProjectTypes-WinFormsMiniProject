@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    public class Class1
-    {
-    }
+	public interface ISaveAddress
+	{
+		void SaveAddress(AddressModel address);
+	}
 }
